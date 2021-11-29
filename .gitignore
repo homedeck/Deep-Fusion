@@ -1,0 +1,47 @@
+# Images
+*.png
+*.jpg
+*.gif
+!media/**/*
+!papers/**/*.jpg
+
+# Training
+runs/
+tmp/
+logs/
+checkpoints/
+*.pth
+*.pt
+!pretrained/**/*.pt
+torch.egg-info/
+
+# Python
+__pycache__
+
+# IDE
+.idea
+.vscode
+
+# Jupyter
+.ipynb_checkpoints
+
+# LaTeX
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.upa
+*.upb
+*.run.xml
+*.lbl
+*.blg
+*.bcf
+*.bbl
+*.lof
+
+# Misc
+*.pem
+.DS_Store
